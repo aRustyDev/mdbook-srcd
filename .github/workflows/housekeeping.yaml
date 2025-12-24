@@ -49,7 +49,7 @@ jobs:
           token: ${{ steps.opw.outputs.WORKFLOW_SECRET }}
 
       - name: GitHub Actions Version Updater
-        uses: saadmk11/github-actions-version-updater@v0.8.1
+        uses: saadmk11/github-actions-version-updater@v0.9.0
         with:
           # [Required] Access token with `workflow` scope.
           token: ${{ steps.opw.outputs.WORKFLOW_SECRET }}
